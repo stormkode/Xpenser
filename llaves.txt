@@ -1,0 +1,13 @@
+Las tablas se relacionan con otras tablas mediante una relación de clave primaria o de clave foránea. Las relaciones de claves primarias y foráneas se utilizan en las bases de datos relacionales para definir relaciones de muchos a uno entre tablas.
+
+Las relaciones de claves primarias y foráneas entre tablas en un esquema de estrella o copo de nieve, a veces llamadas relaciones de muchos a uno, representan las vías de acceso a través de las cuales las tablas relacionadas se unen en la base de datos. Estas vías de acceso de unión son la base para formar consultas de datos históricos. Para obtener más información sobre las relaciones de muchos a uno, consulte Relaciones de muchos a uno.
+
+Claves primarias
+    Una clave primaria es una columna o un conjunto de columnas en una tabla cuyos valores identifican de forma exclusiva una fila de la tabla. Una base de datos relacional está diseñada para imponer la exclusividad de las claves primarias permitiendo que haya sólo una fila con un valor de clave primaria específico en una tabla. 
+
+Claves foráneas
+    Una clave foránea es una columna o un conjunto de columnas en una tabla cuyos valores corresponden a los valores de la clave primaria de otra tabla. Para poder añadir una fila con un valor de clave foránea específico, debe existir una fila en la tabla relacionada con el mismo valor de clave primaria. 
+
+https://mariadb.com/kb/en/library/foreign-keys/#syntax
+https://mariadb.com/kb/es/acerca-de-mariadb-connectorj/#instalaci%C3%B3n-del-driver
+https://downloads.mariadb.org/connector-java/
